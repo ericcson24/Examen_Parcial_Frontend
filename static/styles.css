@@ -1,0 +1,36 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+a{
+    display: flex;
+    color: rgb(0, 0, 0);
+}
+.layout{
+display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header{
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+    background-color: aliceblue;
+    nav{
+        flex-grow: 1;
+        display: flex;
+    align-items: center;
+    position: absolute;
+
+
+    }
+}
+footer{
+    margin-top: 40px;
+    background-color: aliceblue;
+    padding: 10 px;
+
+}
